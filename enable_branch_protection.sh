@@ -28,3 +28,4 @@ for REPO in $REPOS; do
       "allow_force_pushes": false,
       "allow_deletions": false
     }'
+  done
