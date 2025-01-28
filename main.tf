@@ -9,7 +9,7 @@ resource "github_branch_protection" "default" {
   # Get the default branch for each repository
   pattern = data.github_repository.default_branch[each.value].default_branch
 
-#  pattern       = data.github_repository.default_branch.default_branch
+  # pattern       = data.github_repository.default_branch.default_branch
 
   enforce_admins      = true
   allows_force_pushes = false
