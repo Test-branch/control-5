@@ -11,5 +11,5 @@ variable "github_organization" {
 
 variable "repo_prefix" {
   type = string
-  default = "control-"
+  default = "control"
 }
