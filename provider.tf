@@ -3,7 +3,7 @@ provider "github" {
   owner = var.github_organization
 }
 
-provider "azurerm" {
-  features {}
-}
+# provider "azurerm" {
+#   features {}
+# }
 

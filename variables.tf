@@ -9,3 +9,7 @@ variable "github_organization" {
   type        = string
 }
 
+variable "repo_prefix" {
+  type = string
+  default = "control-"
+}
