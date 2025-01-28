@@ -1,0 +1,9 @@
+provider "github" {
+  token = var.github_token
+  owner = var.github_organization
+}
+
+provider "azurerm" {
+  features {}
+}
+
